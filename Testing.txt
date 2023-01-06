@@ -1,0 +1,45 @@
+Test 1:
+    Terminal:
+    Please enter the string for which you would like to find all possible permutations.
+        Please note that this will program will remove all non-alphabetical characters, and 
+        will only take up to 10 characters: abc
+        ['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']     
+        There are 6 permutations of the characters ABC.
+    Explanation:
+        This test case uses the example given in the assignment, string "abc". It verfies that
+        the string is capitalized.
+
+Test 2:
+    Terminal:
+        Please enter the string for which you would like to find all possible permutations.
+        Please note that this will program will remove all non-alphabetical characters, and 
+        will only take up to 10 characters: cba
+        ['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']
+        There are 6 permutations of the characters ABC.
+    Explanation:
+        Similar to the first test, this one verifies that the example form the assignment is
+        calculated correctly. However, in this case the input is unsorted. This case helps
+        make sure that the quick sort algorithm is working correctly.
+
+Test: 3
+    Terminal:
+        Please enter the string for which you would like to find all possible permutations. 
+        Please note that this will program will remove all non-alphabetical characters, and 
+        will only take up to 10 characters: aaccbb
+        ['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']     
+        There are 6 permutations of the characters ABC.
+    Explanation:
+        This test case expects the same results as the previous two tests. This input verifies
+        that the program is able to remove duplicate letters, and also sort the string.
+
+Test 4:
+    Terminal:
+        Please enter the string for which you would like to find all possible permutations. 
+        Please note that this will program will remove all non-alphabetical characters, and 
+        will only take up to 10 characters:a&% bc4 324 $%
+        ['ABC', 'ACB', 'BAC', 'BCA', 'CAB', 'CBA']     
+        There are 6 permutations of the characters ABC.
+    Explanation:
+        This test case expects the same results as the previous tests, but also includes
+        special characters, whitespaces, and digits to verify that the program is able to
+        correctly remove all non alphabetical characters:
